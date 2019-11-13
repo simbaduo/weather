@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Weather</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
-    <script src="/main.js" charset="utf-8"></script>
+    <h1 class="headerinstructions">
+      Enter your City or Zip to find the weather temperature in your area!
+    </h1>
+    <section class="bg-section">
+      <h1 class="data"></h1>
+      <section class="buttonsection">
+        <input type="text" class="weather-input" />
+        <button class="weathercheck">Check The Weather</button>
+      </section>
+    </section>
   </body>
+  <script src="/main.js" charset="utf-8"></script>
 </html>
